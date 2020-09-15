@@ -1,0 +1,13 @@
+experiment_name,state,percent
+Berlin I,error,0.000
+Berlin I,rebuffering,7.621
+Berlin I,startup,46.412
+Berlin I,playing,45.841
+Berlin I,qualitychange,0.000
+Berlin I,setup,0.126
+Berlin II,setup,0.291
+Berlin II,playing,95.959
+Berlin II,qualitychange,0.000
+Berlin II,startup,1.470
+Berlin II,rebuffering,2.280
+Berlin II,error,0.000

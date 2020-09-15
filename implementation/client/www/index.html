@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video.js - Master</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        html {
+            background-color: #000000;
+        }
+        .container {
+            position:   absolute;
+            margin:     auto;
+            top:        0;
+            right:      0;
+            bottom:     0;
+            left:       0;
+            width:      100vmin;
+            height:     100vmin;
+            max-width:  720px;
+            max-height: 720px;
+        }
+    </style>
+   
+    <!-- Video.js -->
+
+    <script type="text/javascript" src="./scripts/video.js"></script>
+    <link rel="stylesheet" href="./style/video-js.css">
+
+    <!-- videojs-vr -->
+
+    <script type="text/javascript" src="./scripts/videojs-vr.js"></script>
+    <link rel="stylesheet" href="./style/videojs-vr.css">
+
+    <!-- videojs-contrib-quality-levels -->
+    
+    <!-- script type="text/javascript"
+        src="./scripts/videojs-contrib-quality-levels.js">
+    </script -->
+    
+    <!-- videojs-hls-quality-selector -->
+    
+    <!-- script type="text/javascript"
+        src="./scripts/videojs-hls-quality-selector.js">
+    </script -->
+
+    <!-- Bitmovin Analytics -->
+
+    <!-- script type="text/javascript"
+            src="./scripts/bitmovinanalytics.min.js">
+    </script -->
+
+</head>
+<body>
+
+<div class="container">
+    <video
+        playsinline
+        id="player"
+        class="video-js vjs-default-skin vjs-big-play-centered"
+        crossorigin="anonymous">
+        <p class="vjs-no-js">
+            Please enable JavaScript to view this video, and consider
+            upgrading to a web browser that
+            <a href= "//videojs.com/html5-video-support" target="_blank">
+                supports HTML 5 video
+            </a>
+        </p>
+    </video>
+</div>
+
+<!-- input id="qoeRange" type="range" min="1" max="5" value="3">
+
+<p><b>Score = </b><span id="scoreSpan">3 (normal)</span -->
+
+<script type="text/javascript" src="./scripts/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="./config.js"></script>
+<!-- script type="text/javascript" src="./scripts/common.js"></script -->
+<!-- script type="text/javascript" src="./scripts/init.js"></script -->
+<!-- script type="text/javascript" src="./scripts/events.js"></script -->
+<!-- script type="text/javascript" src="./scripts/cookies.js"></script -->
+<!-- script type="text/javascript" src="./scripts/useragent.js"></script -->
+<!-- script type="text/javascript" src="./scripts/qoe.js"></script -->
+<!-- script type="text/javascript" src="./scripts/position.js"></script -->
+<!-- script type="text/javascript" src="./scripts/nwi.js"></script -->
+
+</body>
+</html>
